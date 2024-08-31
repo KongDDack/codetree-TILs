@@ -9,8 +9,8 @@ for i in range(n):
     arr2.append(arr)
 
 arr3=[
-    [0 for _ in range(m)]
-    for _ in range(n)
+    [0 for _ in range(n)]
+    for _ in range(m)
 ]
 for i in range(n):
     for j in range(n):
