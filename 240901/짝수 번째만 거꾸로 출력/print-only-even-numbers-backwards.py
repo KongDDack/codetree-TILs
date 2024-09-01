@@ -1,5 +1,3 @@
 a=input()
-b=a[::-1]
-for i in range(len(b)):
-    if i%2==0:
-        print(b[i],end="")
+for i in range(len(a)-1,-1,-2):
+    print(a[i],end="")
