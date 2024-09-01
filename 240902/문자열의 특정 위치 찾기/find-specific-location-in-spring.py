@@ -1,2 +1,5 @@
 s,a=input().split()
-print(s.find(a))
+if a in s:
+    print(s.index(a))
+else:
+    print('No')
