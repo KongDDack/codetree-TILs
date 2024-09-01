@@ -1,0 +1,6 @@
+a=input()
+b=input()
+c=a.replace(" ","")
+d=b.replace(" ","")
+print(c,end="")
+print(d)
