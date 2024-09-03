@@ -7,7 +7,7 @@ while True:
         print("".join(c))
         if len(c)==1:
             break
-    elif b>len(c):
+    elif b>=len(c):
         c.pop(-1)
         print("".join(c))
         if len(c)==1:
