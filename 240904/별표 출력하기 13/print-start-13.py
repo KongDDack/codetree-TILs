@@ -1,19 +1,28 @@
 n=int(input())
-for i in range(n):
+plus=1
+minus=n
+for i in range(1,n+1):
     if i%2==0:
-        for j in range(n-int(i/2)):
-            print("*",end=" ")
-        print()
+        print('* '*plus)
+        plus+=1
     else:
-        for j in range(1+int((i-1)/2)):
-            print("*",end=" ")
-        print()
-for i in range(n):
-    if i%2==0:
-        for j in range(n-1+int(i/2)):
-            print("*",end=" ")
-        print()
-    else:
-        for j in range(1+int((i-1)/2)):
-            print("*",end=" ")
-        print()
+        print('* '*minus)
+        minus-=1
+plus=(n//2+1)
+minus=n//2
+if n%2==0:
+    for j in range(1,n+1):
+        if j%2==0:
+            print('* '*plus)
+            plus+=1
+        else:
+            print('* '*minus)
+            minus-=1
+else:
+    for k in range(1,n+1):
+        if k%2==0:
+            print('* '*minus)
+            minus-=1
+        else:
+            print('* '*plus)
+            plus+=1
