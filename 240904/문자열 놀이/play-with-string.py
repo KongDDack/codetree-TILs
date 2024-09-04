@@ -3,6 +3,7 @@ k=list(s)
 
 q=int(q)
 for i in range(q):
+    k=list(s)
     quest=input().split()
     if quest[0]=='1':
         a=int(quest[1])
