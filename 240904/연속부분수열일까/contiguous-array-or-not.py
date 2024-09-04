@@ -1,3 +1,4 @@
+import sys
 n1,n2=map(int,input().split())
 arr1=list(input().split())
 arr2=list(input().split())
@@ -14,4 +15,6 @@ for i in range(n1):
         
     if success:
         print("Yes")
+        sys.exit()
+        
 print("No")
