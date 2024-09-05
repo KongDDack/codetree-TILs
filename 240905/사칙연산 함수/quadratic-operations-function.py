@@ -3,9 +3,9 @@ a=int(a)
 c=int(c)
 
 def plus(a,c):
-    return (a+b)
+    return (a+c)
 def minus(a,c):
-    return (a-b)
+    return (a-c)
 def division(a,c):
     return (int(a/c))
 def multiple(a,c):
