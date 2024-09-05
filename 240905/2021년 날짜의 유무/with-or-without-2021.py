@@ -31,5 +31,5 @@ elif M== 2 or 4 or 6 or 9 or 11:
         print("Yes")
     else: 
         print("No")
-elif M>=12:
+elif M>12:
     print("No")
