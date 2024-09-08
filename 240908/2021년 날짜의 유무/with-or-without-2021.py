@@ -10,6 +10,8 @@ def day_exist(a,b):
     elif a ==2:
         if b>28:
             return False
+    elif a>12:
+        return False
     return True
 
 if day_exist(M,D):
