@@ -1,9 +1,9 @@
 a=input()
 
 def judge(n):
-    for i in (len(n)):
+    for i in range (len(n)):
         cnt=0
-        for j in (len(n)):
+        for j in range (len(n)):
             if a[i]!=a[j]:
                 cnt+=1
             if cnt>=2:
